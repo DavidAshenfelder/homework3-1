@@ -26,11 +26,11 @@ console.assert(total === 24);
 function sum(){
     // parse arguments into an array
     var args = [].slice.call(arguments);
-    var sum = 0;
+    var total = 0;
           args.forEach(function(value, idx, list){
-            sum += value;
+            total += value;
           });
-          return sum
+          return total
     };
 
     // .. do something with each element of args
@@ -48,7 +48,6 @@ function average(){
             avg += value/args.length;
           });
           return avg
-
 
     // .. do something with each element of args
     // YOUR CODE HERE
@@ -108,27 +107,46 @@ function longest(){
  */
 
 // .sort()
+    var celeb = ["jim", "jennifer", "mark", "robert"];
+     celeb.sort();
+
 
 // .concat()
+    var celeb = ["robert", "downey", "jr"]
+      celeb.concat()
 
 // .indexOf()
+    var food = ["bread", "fruit", "meat"]
+      food.indexOf()
 
 // .split()
+    var food = ["bread", "fruit", "meat"]
+      food.split()
 
 // .join()
-
+    var food = ["bread", "fruit", "meat"]
+      food.join()
 // .pop()
-
+    var food = ["bread", "fruit", "meat"]
+      food..pop()
 // .push()
-
+    var food = ["bread", "fruit", "meat"]
+      food.push()
 // .slice()
-
+    var food = ["bread", "fruit", "meat"]
+      food.slice()
 // .splice()
-
+    var food = ["bread", "fruit", "meat"]
+      food.splice()
 // .shift()
-
+    var food = ["bread", "fruit", "meat"]
+      food.shift()
 // .unshift()
-
+    var food = ["bread", "fruit", "meat"]
+      food.unshift()
 // .filter()
-
+    var food = ["bread", "fruit", "meat"]
+      food.filter()
 // .map()
+    var food = ["bread", "fruit", "meat"]
+      food.map()
