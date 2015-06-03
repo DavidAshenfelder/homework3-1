@@ -108,45 +108,57 @@ function longest(){
 
 // .sort()
     var celeb = ["jim", "jennifer", "mark", "robert"];
-     celeb.sort();
+
+   celeb.forEach(function(value) {
+       return celeb.sort()
+     })
 
 
 // .concat()
-    var celeb = ["robert", "downey", "jr"]
-      celeb.concat()
+
+    var rdj = ["robert", "downey", "jr"]
+
+    var added = rdj.forEach(function() {
+         return rdj.concat()
+      })
 
 // .indexOf()
-    var food = ["bread", "fruit", "meat"]
-      food.indexOf()
+    // var food = ["bread", "fruit", "meat"]
+    //
+    // var foodIdx = food.forEach(function(value){
+    //     return food.indexOf(value, idx, +1)
+    //   })
+
 
 // .split()
     var food = ["bread", "fruit", "meat"]
+
       food.split()
 
-// .join()
-    var food = ["bread", "fruit", "meat"]
-      food.join()
-// .pop()
-    var food = ["bread", "fruit", "meat"]
-      food..pop()
-// .push()
-    var food = ["bread", "fruit", "meat"]
-      food.push()
-// .slice()
-    var food = ["bread", "fruit", "meat"]
-      food.slice()
-// .splice()
-    var food = ["bread", "fruit", "meat"]
-      food.splice()
-// .shift()
-    var food = ["bread", "fruit", "meat"]
-      food.shift()
-// .unshift()
-    var food = ["bread", "fruit", "meat"]
-      food.unshift()
-// .filter()
-    var food = ["bread", "fruit", "meat"]
-      food.filter()
-// .map()
-    var food = ["bread", "fruit", "meat"]
-      food.map()
+// // .join()
+//     var food = ["bread", "fruit", "meat"]
+//       food.join()
+// // .pop()
+//     var food = ["bread", "fruit", "meat"]
+//       food.pop()
+// // .push()
+//     var food = ["bread", "fruit", "meat"]
+//       food.push()
+// // .slice()
+//     var food = ["bread", "fruit", "meat"]
+//       food.slice()
+// // .splice()
+//     var food = ["bread", "fruit", "meat"]
+//       food.splice()
+// // .shift()
+//     var food = ["bread", "fruit", "meat"]
+//       food.shift()
+// // .unshift()
+//     var food = ["bread", "fruit", "meat"]
+//       food.unshift()
+// // .filter()
+//     var food = ["bread", "fruit", "meat"]
+//       food.filter()
+// // .map()
+//     var food = ["bread", "fruit", "meat"]
+//       food.map()
